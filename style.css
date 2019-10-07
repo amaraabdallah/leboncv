@@ -62,7 +62,6 @@ body
       .card-1 .card__desc-title
       {
         font-size: 3em;
-        font-family: cursive
       }
 
       
@@ -77,8 +76,8 @@ body
       }
 
       .card__description {
-      font-family: cursive;
-        width: 477.583px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 477.583px;
       }
       .card-3{
         height: 250px;
