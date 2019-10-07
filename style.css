@@ -7,15 +7,12 @@ body
     background: #eaeaea;
     height: 100%;
    
-   
-}    
+   }    
       .container {
         display: flex;
         flex-direction: column;
         background-color: beige;
-        
-       
-      }
+        }
       
       .card {
         display: flex;
@@ -30,12 +27,9 @@ body
         background: linear-gradient(135deg,  rgba(33,161,168,0) 0%,rgba(33,161,168,0.75) 14%,rgba(33,160,169,0.8) 15%,rgba(34,158,173,1) 18%,rgba(41,137,216,0.91) 50%,rgba(30,87,153,0.81) 85%,rgba(30,87,153,0.8) 87%,rgba(30,87,153,1) 90%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0021a1a8', endColorstr='#001e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
         padding: 12px;
-        
-
         min-height: 150px;
         margin-bottom: 10px;
         position: relative;
-
         max-width: 100%;
       }
       
@@ -60,7 +54,6 @@ body
         color: rgb(12, 12, 14);
         font-size: 18px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        
         min-width: 46%;
         max-width: 46%;
         height: 100%;
