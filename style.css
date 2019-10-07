@@ -5,6 +5,8 @@
 body  
 {
     background: #eaeaea;
+    height: 100%;
+   
       }
       
       .container {
@@ -17,10 +19,17 @@ body
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#21a1a8+14,2989d8+50,1e5799+85&0+0,0.8+15,1+18,0.8+87,1+90,1+90,0+100 */
+        background: -moz-linear-gradient(-45deg,  rgba(33,161,168,0) 0%, rgba(33,161,168,0.75) 14%, rgba(33,160,169,0.8) 15%, rgba(34,158,173,1) 18%, rgba(41,137,216,0.91) 50%, rgba(30,87,153,0.81) 85%, rgba(30,87,153,0.8) 87%, rgba(30,87,153,1) 90%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(33,161,168,0)), color-stop(14%,rgba(33,161,168,0.75)), color-stop(15%,rgba(33,160,169,0.8)), color-stop(18%,rgba(34,158,173,1)), color-stop(50%,rgba(41,137,216,0.91)), color-stop(85%,rgba(30,87,153,0.81)), color-stop(87%,rgba(30,87,153,0.8)), color-stop(90%,rgba(30,87,153,1)), color-stop(100%,rgba(30,87,153,0))); /* Chrome4-9,Safari4-5 */
+        background: -webkit-linear-gradient(-45deg,  rgba(33,161,168,0) 0%,rgba(33,161,168,0.75) 14%,rgba(33,160,169,0.8) 15%,rgba(34,158,173,1) 18%,rgba(41,137,216,0.91) 50%,rgba(30,87,153,0.81) 85%,rgba(30,87,153,0.8) 87%,rgba(30,87,153,1) 90%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: -o-linear-gradient(-45deg,  rgba(33,161,168,0) 0%,rgba(33,161,168,0.75) 14%,rgba(33,160,169,0.8) 15%,rgba(34,158,173,1) 18%,rgba(41,137,216,0.91) 50%,rgba(30,87,153,0.81) 85%,rgba(30,87,153,0.8) 87%,rgba(30,87,153,1) 90%,rgba(30,87,153,0) 100%); /* Opera 11.10-11.50 */
+        background: -ms-linear-gradient(-45deg,  rgba(33,161,168,0) 0%,rgba(33,161,168,0.75) 14%,rgba(33,160,169,0.8) 15%,rgba(34,158,173,1) 18%,rgba(41,137,216,0.91) 50%,rgba(30,87,153,0.81) 85%,rgba(30,87,153,0.8) 87%,rgba(30,87,153,1) 90%,rgba(30,87,153,0) 100%); /* IE10 preview */
+        background: linear-gradient(135deg,  rgba(33,161,168,0) 0%,rgba(33,161,168,0.75) 14%,rgba(33,160,169,0.8) 15%,rgba(34,158,173,1) 18%,rgba(41,137,216,0.91) 50%,rgba(30,87,153,0.81) 85%,rgba(30,87,153,0.8) 87%,rgba(30,87,153,1) 90%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0021a1a8', endColorstr='#001e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
         padding: 12px;
-        background: white;
-        min-height: 125px;
+        
+        min-height: 150px;
         
         margin-bottom: 10px;
         position: relative;
@@ -38,15 +47,22 @@ body
       .card__head
       {
         color: rgb(13, 14, 121);
-        font-size: 30px;
+        font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
+        z-index: 10;
       }
       .card__content {
         z-index: 10;
-        color: rgb(13, 14, 121);
-        font-size: 15px;
+        color: rgb(53, 55, 158);
+        font-size: 18px;
         font-family: Georgia, 'Times New Roman', Times, serif;
       }
+    
+      .card-1 .card__desc-title
+      {
+        font-size: 2em;
+      }
+
       
       svg path {
         stroke-opacity: 0;
@@ -54,73 +70,35 @@ body
       }
       .card__desc-title{
         color: rgb(13, 14, 121);
-        font-size: 30px;
+        font-size: 18px;
         font-family: Georgia, 'Times New Roman', Times, serif;
       }
 
       .card__description {
+      
         width: 477.583px;
       }
-.container
-{
-    /*display: flex;
-    flex-direction: row;
-    align-content: stretch;
-    padding: 10px;*/
-}
+      .card-3{
+        height: 250px;
+        margin-bottom: 108px;
 
+      }
 
+      .card-3 .card__description {
+        
+        margin-bottom: 108px;
+      }
 
+      .card__expérience{
+       width: 477.58px; 
+      }
 
-p
-{
-    color: black;
-    width: 33%;
-    min-width: 200px;
-    text-align: justify;
-
-}
-.coordonnées
-{
-    color: rgb(38, 54, 49);
-    font-size: 18px;
-    font-family: "comic sans-serif", verdana, "trebuchet ms";
-    font-style: italic;
-    font-weight: bold;
-}
-
-.cv
-{
-    color: rgb(13, 14, 121);
-    font-size: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /*! font-style: initial; */
-    font-weight: bold;
-    /*! text-decoration: brown; */
-    text-decoration-style: dotted;
-    text-align: center; 
-    /*! background-color: cornflowerblue; */
-    /*! border: 2px black dashed; */
-    /*! border-radius: 10px; */
-    /*! box-shadow: 6px 6px 0px black; */  
-}
 .span
 {
     text-align: center;
 
 }
-h2 /* sans survol*/
-{
-    color: rgb(109, 109, 121);
-    text-decoration-color: aqua;
-    font-family: custom-amble;
-    word-wrap: break-word;
-}
- 
-h3
-{
-    color: black;
-}
+
 
 footer
 {
